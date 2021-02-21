@@ -1,0 +1,32 @@
+.h1-type {
+    font-size: 2.2em ;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.ul-class {
+    list-style-type: none;
+    margin:0;
+    border:0;
+    height:250px;
+    text-align: center;
+    display: flex; 
+    flex-direction: row;
+    flex-wrap:wrap; 
+    align-items: stretch;
+}
+
+.li-class {
+    
+    color: salmon;
+    font-size: 2em;
+    width: 100px;
+}
+
+.ul-class li:first-child {background-color: violet; align-self: flex-start;margin-top: 0px;}
+.ul-class li:nth-child(2) {background-color: indigo; align-self: flex-start; margin-top: 35px;}
+.ul-class li:nth-child(3) {background-color: blue;align-self: flex-start; margin-top: 70px;}
+.ul-class li:nth-child(4) {background-color: green;align-self: center; margin-top: 0px;}
+.ul-class li:nth-child(5) {background-color: indigo;align-self: center; margin-top: 70px;}
+.ul-class li:nth-child(6) {background-color: orange;align-self:flex-end; margin-bottom: 35px;}
+.ul-class li:last-child {background-color: red;align-self: flex-end; margin-top: 0px;}
